@@ -7,7 +7,7 @@ class Currency_Converter
             double rupee,dollar,pound,code,euro,KWD;
             DecimalFormat f = new DecimalFormat("##.###");
             Scanner sc = new Scanner(System.in);
-            System.out.println("*** WelCome to Webeduclick Currency Converter Project ***\nEnter the currency code \n1:Rupees\n2:Dollar\n3:Pound\n4:Euro\n5:Kuwaiti dinar"); 
+            System.out.println(" Currency Converter\nEnter the currency code \n1:Rupees\n2:Dollar\n3:Pound\n4:Euro\n5:Kuwaiti dinar"); 
             code=sc.nextInt();
             if(code == 1)
             {
